@@ -98,3 +98,31 @@ table {
         grid-template-columns: 1fr;
     }
 }
+
+
+/* ANIMACION */
+
+
+/* Agrega border radius a las imagenes cuando pasas el cursor*/
+
+.contenedor div img {
+    border-radius: 0px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear
+}
+
+.contenedor div img:hover {
+    border-radius: 40px;
+}
+
+
+/* Agranda el font size cuando pasa el cursor*/
+
+.parrafoprincipal {
+    -webkit-transition: font-size 1s ease;
+    transition: font-size 1s ease;
+}
+
+.parrafoprincipal:hover {
+    font-size: 21px;
+}
